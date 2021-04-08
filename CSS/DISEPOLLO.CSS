@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body
+{
+  background-image: url("../IMG/bg.png");
+  margin:0;
+  padding:0;
+  background-position: top center;
+}
+#header
+{
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  top: 0px;
+}
+#logo
+{
+  position: absolute;;
+  width: 150px;
+  height: 80px;
+  top: 20px;
+  left: 80px;
+}
+#comp
+{
+  color: #a49a00;
+  font-family: "nimbus-sans-condensed", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 900;
+  font-size:17px;
+  position: absolute;
+  right: 300px;
+  top: -9px;
+}
+.letM
+{
+  color: #69321F;
+  font-family: "nimbus-sans-condensed", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 600;
+  font-size:17px;
+  position: absolute;
+  text-decoration: none;
+}
+.letM:hover
+{
+  color:#b42f04;
+}
+#order
+{
+  position: absolute;
+  top: 285px;
+  left: 85px;
+}
+.content
+{
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  z-index: 0;
+  height: 180px;
+  width: 845px;
+}
+.contentbln
+{
+  position: absolute;
+  top: 280px;
+  left: 300px;
+  width: 845px;
+  height: 1970px;
+}
+#green
+{
+  z-index: 0;
+  position: absolute;
+  top: 2090px;
+  left: 0px;
+}
+#footer
+{
+  position: absolute;
+  bottom: -1570px;
+  left: 0px;
+  background-position:bottom center;
+  height:70px;
+  margin-top: 20px;
+}
+.linksb
+{
+  font-family:Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 700;
+  color:white;
+  font-size: 15px;
+  text-decoration:none;
+  z-index: 1;
+}
+.linksb:hover
+{
+  text-decoration: underline;
+}
